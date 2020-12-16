@@ -28,3 +28,6 @@
         width: 90vw;
     }
 }
+.container {
+    text-align: center !important;
+}

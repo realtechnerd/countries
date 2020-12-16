@@ -45,9 +45,9 @@ export default function MainContent() {
             <Header/>
             <Loader/>
 
-            <form action="" className="searchBar">
+            <div className="searchBar">
                 <input type="text" placeholder="Search for a country.." onChange={e => setSearchItem(e.target.value)}/>
-            </form>
+            </div>
 
             <div className="MainContent container">
                 <Row>

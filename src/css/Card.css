@@ -5,6 +5,7 @@
     box-shadow: 2px 5px 15px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
     transition: 0.2s;
+    text-align: left !important;
 }
 .card-img-top {
     border-top-right-radius: 1rem !important;
