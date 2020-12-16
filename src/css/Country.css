@@ -1,0 +1,23 @@
+.myContainer {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.Country {
+    padding: 15px;
+}
+.Country hr {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+@media only screen and (max-width: 600px) {
+    .myContainer {
+        margin-left: 5px !important;
+        margin-right: 5px !important;
+    }
+}
+.BackHome {
+    margin-bottom: 0px;
+}
+.langs li {
+    margin-bottom: -15px;
+}

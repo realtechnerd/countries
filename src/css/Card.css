@@ -1,0 +1,33 @@
+.card {
+    font-family: Manrope;
+    border-radius: 1rem !important;
+    border: none !important;
+    box-shadow: 2px 5px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: 0.2s;
+}
+.card-img-top {
+    border-top-right-radius: 1rem !important;
+    border-top-left-radius: 1rem !important;
+    margin-bottom: -5px !important;
+}
+.card-body p{
+    margin-bottom: 0px !important;
+}
+.card-title {
+    margin-bottom: 0px !important;
+}
+#countryContinent {
+    margin-bottom: -12px !important;
+}
+.card-btn {
+    background: linear-gradient(135deg, #396afc, #2948ff);
+    color: #fff !important;
+    box-shadow: 2px 5px 15px rgba(0, 0, 0, 0.1) !important;
+}
+.countryCard:hover {
+    transform: scale(0.99);
+}
+.countryCard:active {
+    transform: scale(1.01);
+}

@@ -1,0 +1,30 @@
+.MainContent {
+    padding: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.MainContent h1 {
+    margin-bottom: 0px;
+}
+.searchBar {
+    text-align: center;
+    outline: none !important;
+}
+.searchBar input {
+    padding: 10px;
+    font-size: 18pt;
+    box-shadow: 2px 5px 15px rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 1rem;
+    font-family: Inter;
+    width: 50vw;
+}
+@media only screen and (max-width: 600px) {
+    .searchBar input {
+        margin-left: 15px;
+        margin-right: 15px !important;
+        width: 90vw;
+    }
+}
