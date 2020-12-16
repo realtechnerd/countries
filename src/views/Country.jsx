@@ -48,7 +48,7 @@ export default function Country({ match }) {
 
            {data, data.languages, data.population, data.currencies && (
            <>
-                 <img src={data.flag} className="card-img-top"/>
+                <img src={data.flag} className="card-img-top"/>
                 <div className="card-body countryInfo">
                     {data.nativeName}
                     <h1>{data.name}</h1>
