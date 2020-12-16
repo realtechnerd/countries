@@ -49,7 +49,7 @@ export default function Country({ match }) {
            {data, data.languages, data.population, data.currencies && (
            <>
                  <img src={data.flag} className="card-img-top"/>
-                <div className="card-body">
+                <div className="card-body countryInfo">
                     {data.nativeName}
                     <h1>{data.name}</h1>
                     <p style={{display: !data.region && "none"}}>Country in {data.region}</p>
@@ -60,6 +60,7 @@ export default function Country({ match }) {
                     {mapLangs}
                     <p><b>Accepted Currencies:</b></p>
                     {mapCurrencies}
+                    <p style={{display: !data.topLevelDomain && "none"}}><b>Top Level Domain:</b> {data.topLevelDomain}</p>
                 </div>
            </>
 
